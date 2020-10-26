@@ -194,7 +194,11 @@ module.exports = {
           return moment(timestamp).format('YYYY/MM/DD, H:MM:SS')
         }
       }
-    ]
+    ],
+    // 点击放大图
+    ['@vuepress/medium-zoom',{
+      selector:".theme-container"
+    }]
   ],
   // configureWebpack: {
   //   //webpack别名 如![Image from alias](~@alias/image.png)

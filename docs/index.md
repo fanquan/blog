@@ -27,12 +27,30 @@ postList: none
 info: 我要暂时md文件内容
 ---
 
+
+# 大厂面试题与大前端知识体系结合
+
+::: tip TIP
+你好，我是饭饭，你是否曾对前端学习充满迷茫，是否每天在碎片化的学习中焦虑，那么你可以选择和我一起学习，将碎片化的知识构建成 <font color=red>知识体系</font> ，提升自身技术
+#### 不积跬步，无以至千里，脚踏实地的走稳每一步
+:::
+
+## 前端知识体系总览
+![前端知识体系总览](../docs/.vuepress/public/img/roadmap1.jpg)
+
+## 适合什么样的人阅读
+- 前端入门者：
+- 进阶中的前端
+- 计划换工作的：
+
 **加入我们**
 
-- 搜索公众号 **`前端饭圈`** 或者 **`扫描右侧二维码`** 进行关注
-- [Github 链接在此, 欢迎点个 Start](https://github.com/koala-coding/goodBlog)
+- 搜索公众号 **`前端饭圈`** 或者 **`下方二维码`** 进行关注
+<!-- - [Github 链接在此, 欢迎点个 Start](https://github.com/koala-coding/goodBlog) -->
 - 将好文章分享给您身边更多的小伙伴
-- 如果你想更好的约束自己坚持每日学习, 欢迎加入 [day day up](https://github.com/koala-coding/day-day-up) 项目
+<!-- - 如果你想更好的约束自己坚持每日学习, 欢迎加入 [day day up](https://github.com/koala-coding/day-day-up) 项目 -->
+
+![前端饭圈二维码](../docs/.vuepress/public/img/fanquan_logo.png)
 
 <!-- 小熊猫 -->
 <!-- <img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;"> -->

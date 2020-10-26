@@ -1,14 +1,30 @@
 module.exports = [
-  {text: '首页', link: '/'},
+  {text: '导读', link: '/'},
   {
-    text: '前端',
+    text: '页面', 
+    link: '/ui/',
+    items: [
+      {text: 'HTML', link: '/pages/8309a5b876fc95e3/'},
+      {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
+    ]
+  },
+  {
+    text: 'JS基础与进阶',
     link: '/web/',  //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
-      {text: '前端文章', items: [
+      {text: 'Javascript', items: [
         {text: 'JavaScript', link: '/pages/8143cc480faf9a11/'}, // 这些link是在相应md文件定义的永久链接。另外，注意结尾是有斜杠的
         {text: 'Vue', link: '/pages/802a1ca6f7b71c59/'},
       ]},
-      {text: '学习笔记', items:[
+      {text: 'ES6.7.8.9系列', items:[
+        {text: '《JavaScript教程》笔记', link: '/note/javascript/'},
+        {text: '《JavaScript高级程序设计》笔记', link: '/note/js/'},
+        {text: '《ES6 教程》笔记', link: '/note/es6/'},
+        {text: '《Vue》笔记', link: '/note/vue/'},
+        {text: '《TypeScript 从零实现 axios》', link: '/note/typescript-axios/'},
+        {text: '小程序笔记', link: '/note/wx-miniprogram/'},
+      ]},
+      {text: 'Typescript', items:[
         {text: '《JavaScript教程》笔记', link: '/note/javascript/'},
         {text: '《JavaScript高级程序设计》笔记', link: '/note/js/'},
         {text: '《ES6 教程》笔记', link: '/note/es6/'},
@@ -19,11 +35,23 @@ module.exports = [
     ]
   },
   {
-    text: '页面', 
-    link: '/ui/',
+    text: '框架', 
+    link: '/more/',
     items: [
-      {text: 'HTML', link: '/pages/8309a5b876fc95e3/'},
-      {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
+      {text: '学习', link: '/pages/f2a556/'},
+      {text: '面试', link: '/pages/aea6571b7a8bae86/'},
+      {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
+      {text: '友情链接', link: '/friends/'},
+    ]
+  },
+  {
+    text: '算法', 
+    link: '/more/',
+    items: [
+      {text: '学习', link: '/pages/f2a556/'},
+      {text: '面试', link: '/pages/aea6571b7a8bae86/'},
+      {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
+      {text: '友情链接', link: '/friends/'},
     ]
   },
   {
@@ -37,7 +65,7 @@ module.exports = [
     ]
   },
   {
-    text: '更多', 
+    text: '工程化', 
     link: '/more/',
     items: [
       {text: '学习', link: '/pages/f2a556/'},
@@ -46,8 +74,18 @@ module.exports = [
       {text: '友情链接', link: '/friends/'},
     ]
   },
-  {text: '关于', link: '/about/'},
   {
+    text: '面试', 
+    link: '/more/',
+    items: [
+      {text: '学习', link: '/pages/f2a556/'},
+      {text: '面试', link: '/pages/aea6571b7a8bae86/'},
+      {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
+      {text: '友情链接', link: '/friends/'},
+    ]
+  },
+  {
+    // 收藏的技术文档、第三方库、好的网站、start高的项目
     text: '收藏',
     link: '/pages/beb6c0bd8a66cea6/',
     items: [
@@ -64,5 +102,6 @@ module.exports = [
       {text: '标签', link: '/tags/'},
       {text: '归档', link: '/archives/'},
     ]
-  }
+  },
+  // {text: '关于', link: '/about/'}
 ]
