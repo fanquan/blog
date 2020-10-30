@@ -4,7 +4,7 @@ module.exports = [
     text: '页面', 
     link: '/ui/',
     items: [
-      {text: 'HTML', link: '/pages/8309a5b876fc95e3/'},
+      {text: 'HTML', link: '/pages/1603543031000/'},
       {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
     ]
   },
@@ -36,7 +36,7 @@ module.exports = [
   },
   {
     text: '框架', 
-    link: '/more/',
+    link: '/framework/',
     items: [
       {text: '学习', link: '/pages/f2a556/'},
       {text: '面试', link: '/pages/aea6571b7a8bae86/'},
@@ -46,7 +46,7 @@ module.exports = [
   },
   {
     text: '算法', 
-    link: '/more/',
+    link: '/leetcode/',
     items: [
       {text: '学习', link: '/pages/f2a556/'},
       {text: '面试', link: '/pages/aea6571b7a8bae86/'},
@@ -66,7 +66,7 @@ module.exports = [
   },
   {
     text: '工程化', 
-    link: '/more/',
+    link: '/build/',
     items: [
       {text: '学习', link: '/pages/f2a556/'},
       {text: '面试', link: '/pages/aea6571b7a8bae86/'},
@@ -76,7 +76,7 @@ module.exports = [
   },
   {
     text: '面试', 
-    link: '/more/',
+    link: '/interview/',
     items: [
       {text: '学习', link: '/pages/f2a556/'},
       {text: '面试', link: '/pages/aea6571b7a8bae86/'},

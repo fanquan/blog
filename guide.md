@@ -85,3 +85,23 @@ console.log('这是一个详情块')
 
 ### 显示xmind
 暂时没有找到
+
+## 创建单独的目录页
+
+```
+---
+pageComponent: 
+  name: Catalogue
+  data: 
+    key: 01.页面
+    imgUrl: /img/web.png
+    description: html+css
+title: 页面
+date: 2020-10-24 21:50:53
+permalink: /ui
+sidebar: false
+article: false
+comment: false
+editLink: false
+---
+```

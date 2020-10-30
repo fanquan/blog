@@ -67,6 +67,7 @@ export default {
       this.isStructuring = false
       console.error("目录页数据依赖于结构化的侧边栏数据，请在主题设置中将侧边栏字段设置为'structuring'，否则无法获取目录数据。")
     }
+    console.log('slidebar:', this.isStructuring)
   },
   methods: {
     getPageData () {
