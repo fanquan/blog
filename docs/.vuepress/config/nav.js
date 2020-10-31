@@ -38,8 +38,15 @@ module.exports = [
     text: '框架', 
     link: '/framework/',
     items: [
-      {text: '学习', link: '/pages/f2a556/'},
-      {text: '面试', link: '/pages/aea6571b7a8bae86/'},
+      {text: 'Vue系列', items:[
+        {text: 'vue3中使用jsx',link: '/pages/f2a556/'}
+      ]},
+      {text: 'React系列', items:[
+        {
+          text:"React基础-jsx",
+          link: '/pages/160385832/'
+        }
+      ]},
       {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
       {text: '友情链接', link: '/friends/'},
     ]
