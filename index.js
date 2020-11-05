@@ -27,7 +27,7 @@ export function createElement(type, config, children){
         // 判断不是对象原型上的，也不是RESERVED_PROPS（key/ref等）,c才赋到props对象上
         for(propName in config) {
             if(hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName) ){
-
+                props[propName] = config[propName]
             }
         }
 
@@ -48,5 +48,7 @@ export function createElement(type, config, children){
             // 最后把这个数组赋给 props.children
             props.children = childArray;
         }
+
+        // defaultProps 
     }
 }
