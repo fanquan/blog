@@ -145,6 +145,7 @@ export default {
       } else {
         posts = this.$sortPosts
       }
+      console.log("%%%%%posts:", posts)
 
       this.sortPosts = posts.slice((currentPage - 1) * perPage, currentPage * perPage)
     },
