@@ -1,5 +1,5 @@
 {
-  "name": "theme-vdoing-blog",
+  "name": "fanquan-blog",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
@@ -26,6 +26,8 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "@vssue/api-github-v3": "^1.4.4",
+    "@vssue/vuepress-plugin-vssue": "^1.4.6",
     "vuepress-plugin-comment": "^0.7.3"
   }
 }

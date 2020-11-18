@@ -1,10 +1,11 @@
 const path = require('path')
-const setFrontmatter = require('./node_utils/setFrontmatter')
+const setFrontmatter = require('./node_utils/setFrontmatter.js')
 const getSidebarData = require('./node_utils/getSidebarData')
 const { createPage, deletePage } = require('./node_utils/handlePage')
 const chalk = require('chalk') // 命令行打印美化
 const yaml = require('js-yaml') // yaml转js
 const log = console.log
+
 
 // md容器名
 const CARD_LIST = 'cardList'
@@ -13,6 +14,8 @@ const CARD_IMG_LIST = 'cardImgList'
 // Theme API.
 module.exports = (options, ctx) => {
   const { sourceDir, themeConfig, siteConfig } = ctx
+
+  log(chalk.blue('tip ') + chalk.green('开始了。'))
 
   // 自动设置front matter
   setFrontmatter(sourceDir, themeConfig)

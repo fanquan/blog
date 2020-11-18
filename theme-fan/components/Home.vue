@@ -5,7 +5,7 @@
         <div class="banner-conent" :style="
                     !homeData.features &&
                     !homeData.heroImage &&
-                    `padding-top: 7rem`
+                    `padding-top: 1.4rem`
                 ">
             <header class="hero">
                 <img v-if="homeData.heroImage" :src="$withBase(homeData.heroImage)" :alt="homeData.heroAlt" />
@@ -284,7 +284,7 @@ export default {
 .home-wrapper {
     .banner {
         width: 100%;
-        min-height: 450px;
+        min-height: 280px;
         margin-top: $navbarHeight;
         color: $bannerTextColor;
         position: relative;

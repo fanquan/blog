@@ -1,4 +1,10 @@
 const nav = require('./config/nav.js')
+const path = require('path')
+function resolve(dir) {
+    return path.join(__dirname, dir);
+}
+const chalk = require('chalk') // 命令行打印美化
+const log = console.log
 
 module.exports = {
   title: "前端饭圈",
@@ -159,32 +165,15 @@ module.exports = {
       }
     ],
     [
-      'vuepress-plugin-comment', // 评论
-      // {
-      //   choosen: 'valine',
-      //   options: {
-      //     el: '#valine-vuepress-comment',
-      //     appId: 'qnS1jobNF7CROIQ0XYWBnVOH-gzGzoHsz',
-      //     appKey: 'LIKa0ePqFMkglQfOkN0JNK6c',
-      //     avatar: 'monsterid'
-      //   }
-      // },
-      {
-        choosen: 'gitalk',
-        options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-          repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
-          // distractionFreeMode: true,
-          pagerDirection: 'last', // 'first'正序 | 'last'倒序
-          id: "<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>", //  页面的唯一标识,长度不能超过50
-          title: "「评论」<%- frontmatter.title %>", // GitHub issue 的标题
-          labels: ["Gitalk", "Comment"], // GitHub issue 的标签
-          body: "页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
+        // 使用vssue 留言功能
+        '@vssue/vuepress-plugin-vssue',{
+            platform: 'github',
+            locale: 'zh',
+            repo:"blog",
+            owner: "fefanquan@163.com",//对应 仓库 的拥有者帐号或者团队
+            clientId: "2007d714d2639fb737a6",  // OAuth App 的 client id
+            clientSecret: "7e3568f84cdea4109cc924ba27be5f59f8da19c5"  // OAuth App 的 client secret
         }
-      }
     ],
     [
       '@vuepress/last-updated', // "上次更新"时间格式

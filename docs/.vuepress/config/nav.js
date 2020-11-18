@@ -35,7 +35,8 @@ module.exports = [
     link: '/framework/',
     items: [
       {text: 'Vue系列', items:[
-        {text: 'vue3中使用jsx',link: '/pages/f2a556/'}
+        {text: 'vue封装UI组件',link: '/pages/e50055/'},
+        {text: '盘点Vue3新特性',link: '/pages/768195/'},
       ]},
       {text: 'React系列', items:[
         {
