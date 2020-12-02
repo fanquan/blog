@@ -5,7 +5,7 @@ module.exports = [
     link: '/ui/',
     items: [
       {text: 'HTML', link: '/pages/1603543031000/'},
-      {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
+      {text: 'CSS', link: '/pages/6809794/'},
     ]
   },
   {

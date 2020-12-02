@@ -27,7 +27,7 @@ module.exports = { // 侧边栏
         ['01.html-css/04.flex布局案例-圣杯布局','flex布局案例-圣杯布局'],
         ['01.html-css/05.flex布局案例-输入框布局','flex布局案例-输入框布局'], 
         ['01.html-css/06.CSS3之transform过渡','CSS3之transform过渡'], 
-        ['01.html-css/07.CSS3之animation动画','CSS3之animation动画'], 
+        // ['01.html-css/07.CSS3之animation动画','CSS3之animation动画'], 
       ]
     },
   ],
